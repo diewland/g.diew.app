@@ -1,0 +1,5 @@
+RewriteEngine on
+
+# redirect every requests to index.php
+# get xxx from $_SERVER['REQUEST_URI']
+RewriteRule ^(.+)$ index.php [L]
